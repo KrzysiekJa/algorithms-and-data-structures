@@ -1,3 +1,12 @@
-function countOccurrences() {}
+function countOccurrences(str, char) {
+  let count = 0
+  for (const chr of str) {
+    if (chr === char) {
+      count++
+    }
+  }
 
-module.exports = countOccurrences;
+  return count
+}
+
+module.exports = countOccurrences

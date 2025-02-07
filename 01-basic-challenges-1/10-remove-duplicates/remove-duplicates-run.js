@@ -1,4 +1,4 @@
-const removeDuplicates = require('./remove-duplicates');
+const removeDuplicates = require('./remove-duplicates')
 
 const result = removeDuplicates([
   1,
@@ -15,6 +15,6 @@ const result = removeDuplicates([
   'hello',
   true,
   true,
-]);
+])
 
-console.log(result);
+console.log(result)
