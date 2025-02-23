@@ -1,3 +1,15 @@
-function removeDuplicates() {}
+function removeDuplicates(arr) {
+  const seen = {}
+  const result = []
 
-module.exports = removeDuplicates;
+  for (const ar of arr) {
+    if (!seen[ar]) {
+      seen[ar] = true
+      result.push(ar)
+    }
+  }
+
+  return result
+}
+
+module.exports = removeDuplicates
